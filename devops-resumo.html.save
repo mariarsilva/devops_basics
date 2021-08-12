@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resumo do livro The DevOps Handbook</title>
+    <title>Document</title>
 </head>
 <body>
 <h1>PARTE 1: aprender os princípios do Flow, do Feedback e do Continual Learning</h1>
@@ -29,43 +29,22 @@
 <h2>Toyota Kata</h2>
 <p>Criar uma estrutura para a prática habitual para a melhoria do trabalho diário.</p>
 
-<h2><font color="red">Agile, Continuous Delivery e os 3 Ways</font></h2>
+<h2 color="red">Agile, Continuous Delivery e os 3 Ways</h2>
 <h2>Manufacturing Value Stream</h2>
 <p>Value Stream é a sequência de atividades que a organização determinada para entregar a tarefa solicitada</p>
 <p>Design, produção e entrega do bem ou serviço e seus fluxos.</p>
 <p>Foco no tempo de deploy.O objetivo é que as fases de teste e operação aconteçam simultâneas ao design/desenvolvimento.</p>
-<center><img src="lead.png"></center>
+<img src="lead.png">
 <p>Lead time = tempo do cliente. Por isso existe uma tendência em focar nele. Entretanto, é importante reparar no tempo do Process Time dentro do Lead time, acabará servindo como métrica de eficiência.</p>
 <p>Comumente o tempo de deploy pode levar meses, principalmente em grandes organizações. Num cenário ideal, esse tempo seria menor, o time receberia o feedback mais rapidamente.Conseguimos isso com a checagem contínua das pequenas mudanças de código, testagem automatizada e deploy. Esse processo pode ser acelerado com arquitetura modular e bem encapsulada, que permita que pequenos times trabalhem nela.</p>
-<center><img src="stream.png"></center>
+<img src="stream.png">
 
 <h2>%C/A</h2>
-<p>Métrica que verifica o percentual de completo e acurado do produto. Reflete a qualidade de cada passo e pode ser obtida perguntando ao cliente a proporção de tempo em que ele recebe partes 'usáveis' do trabalho sem precisar corrigir ou esclarecer algo.</p>
+<p>Outra métrica importante é o percentual de completo e acurado (%C/A), que pode ser obtido perguntando ao cliente a proporção de tempo em que o cliente recebe parte 'usáveis' do trabalho.</p>
 
-<h2>Os 3 Ways</h2>
-<p>Princípios básicos do devOps.</p>
-<ul>
-  <li>First Way: fluxo rápido da esquerda para a direita. Do desenvolvimento para operações para o cliente. Para melhorar o fluxo deixamos o trabalho visível, reduzimos o tamanho dos 'batchs' e os intervalos de trabalho construído.Construção contínua, integração, teste e deploy.</l1>
-   <p></p>
-   <center><img src="1way.png"></center>
-  <li>Second Way:rápido e constante fluxo do feedback da direita para esquerda. Requer feedback rápido, permitindo rápida detecção e recuperação. </li>
-  <li>Third Way: criação de uma cultura que incentiva o apelo científico, dinâmico e metodológico à experimentação e à tomada de riscos.</li>
-</ul>
+<h2>Os princípios 3 Ways</h2>
+<p>
+</p>
 
-<h2><font color="red">The First Way: princípios do Flow</font></h2>
-<p>Fluxo suave de trabalho entre setores de Desenvolvimento e Operação, para entregar valores mais rapidamente.</p>
-<ul>
-  <li>Deixar o trabalho visível: diferente dos processos físicos, nos processos digitais não dá pra perceber de imediato onde o fluxo está travado. Para ajudar a equipe a entender onde os fluxos estão travados devemos deixar nosso trabalho o mais visível possível.Os melhores métodos são:</li>
-    <ul>
-    <li>Criação de boards de trabalho visuais</li>
-    <li>Kanban Boards</li>
-    <li>Sprint Planning</li>
-    <p></p>
-    <img src="kanban.png">
-    </ul>
-  <li>Limitar o 'Work in Process': o trabalho diário é marcado por demandas urgentes. Estudos mostram que mesmo tarefas simples aumentam significativamente de dificuldade quando em execução de múltiplas tarefas ao mesmo tempo.Kanban boards ajudam a limitar múltiplas tarefas. Limitar o WIP também ajuda a ver os problemas.</li>
-  <li>Reduzir os intervalos e o tamanho dos batchs:</li>
-  <li></li>  
-</ul>
 </body>
 </html>
