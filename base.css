@@ -1,0 +1,14 @@
+body{
+  background-color: #333333;
+}
+
+p, li, h1, h2{
+  color: #FFFFFF;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+img{
+  margin-left: 400px;
+  margin-right: 400px;
+}

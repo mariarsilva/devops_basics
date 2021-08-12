@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="base.css" rel="stylesheet">
     <title>Resumo do livro The DevOps Handbook</title>
 </head>
 <body>
@@ -29,7 +30,7 @@
 <h2>Toyota Kata</h2>
 <p>Criar uma estrutura para a prática habitual para a melhoria do trabalho diário.</p>
 
-<h2><font color="red">Agile, Continuous Delivery e os 3 Ways</font></h2>
+<h2><font color="#ff6b6b">Agile, Continuous Delivery e os 3 Ways</font></h2>
 <h2>Manufacturing Value Stream</h2>
 <p>Value Stream é a sequência de atividades que a organização determinada para entregar a tarefa solicitada</p>
 <p>Design, produção e entrega do bem ou serviço e seus fluxos.</p>
@@ -52,7 +53,7 @@
   <li>Third Way: criação de uma cultura que incentiva o apelo científico, dinâmico e metodológico à experimentação e à tomada de riscos.</li>
 </ul>
 
-<h2><font color="red">The First Way: princípios do Flow</font></h2>
+<h2><font color="#ff6b6b">The First Way: princípios do Flow</font></h2>
 <p>Fluxo suave de trabalho entre setores de Desenvolvimento e Operação, para entregar valores mais rapidamente.</p>
 <ul>
   <li>Deixar o trabalho visível: diferente dos processos físicos, nos processos digitais não dá pra perceber de imediato onde o fluxo está travado. Para ajudar a equipe a entender onde os fluxos estão travados devemos deixar nosso trabalho o mais visível possível.Os melhores métodos são:</li>
@@ -64,8 +65,46 @@
     <img src="kanban.png">
     </ul>
   <li>Limitar o 'Work in Process': o trabalho diário é marcado por demandas urgentes. Estudos mostram que mesmo tarefas simples aumentam significativamente de dificuldade quando em execução de múltiplas tarefas ao mesmo tempo.Kanban boards ajudam a limitar múltiplas tarefas. Limitar o WIP também ajuda a ver os problemas.</li>
-  <li>Reduzir os intervalos e o tamanho dos batchs:</li>
-  <li></li>  
+  <li>Reduzir os intervalos e o tamanho dos batchs: batchs grandes demandam grandes níveis de WIP, levando ao aumento do tempo de conclusão e baixa qualidade.Ou seja, nem sempre a produção em larga escala de cada processo é a forma mais eficaz.</li>
+    <ul>
+    <li>Reduzir tamanho dos batches</li>
+    <li>Menor WIP</li>
+    <li>Tempo de produção mais rápido</li>
+    <li>Detecção de erros mais rápida</li>
+    <li>Menor 'retrabalho'</li>
+    </ul>
+  <img src="batches.png"> 
+  <li>Redução da transferência de responsabilidades (handoffs): muitas vezes temos um longo tempo de deploy devido a centenas ou milhares de operações solicitadas, além de inúmeros departamentos envolvidos (criação, teste, administração de servidor, segurança, etc.). Lidar com esses diversos times também requer coordenação, agenda, comunicação, etc., e isso pode demandar muito tempo. A cada transferência alguns conhecimentos são inevitavelmente perdidos. Uma das formas de se evitar handoffs é automatizando partes do trabalho ou reorganizando os times.</li>
+  <li>Continuamente identificar e elevar as restrições (constraints): cinco passos: </li>
+    <ul>
+    <li>Idenfiticar as restrições do sistema.</li>
+    <li>Decidir como explorá-las.</li>
+    <li>Subordinar tudo a essas decisões.</li>
+    <li>Elevar as restrições.</li>
+    <li>Se os passos anteriores forem rompidos, volte ao início e não permita a inércia,</li>
+    </ul>
+    <p>No ritmo de transformação devOps, as restrições usualmente seguem essa progressão:</p>
+    <ul>
+    <li>Criação de ambiente: é preciso criar um ambiente propício a deployments, senão esperaremos semanas para resolver problemas.</li>
+    <li>Deployment: automatizar o máximo possível para que a tarefa possa ser feita por qualquer desenvolvedor. </li>
+    <li>Testar e executar: automatizando os testes diminuimos o tempo.</li>
+    <li>Arquitetura rígida demais: se sempre que formos mudar o código precisarmos de permissão de técnicos para fazer mudanças demoraremos muito tempo. É importante construir uma arquitetura que permita certa autonomia.</li>
+    </ul>
+  <li>Eliminar emergências e desperdício no fluxo: esses problemas causam atraso na entrega. Algumas categorias de desperdício são:</li>
+    <ul>
+    <li>Trabalho parcialmente finalizado: se torna obsoleto e perde valor e tempo.</li>
+    <li>Processos extras: exemplo: documentação não usada, reviews e aprovações que não acrescentam valor.</li>
+    <li>Troca de tarefas</li>
+    <li>Esperas e atrasos. </li>
+    <li>Desperdício de movimento: handoffs podem causar esse desperdício que requer frequente comunicação adicional para resolver ambiguidades.</li>
+    <li>Defeitos: informações incorretas, faltando ou ambíguas. Gastam tempo na detecção e correção.</li>
+    <li>Trabalho manual ou despadronizado: o ideal é automatizar o máximo possível. </li>
+    <li>Atos Heroicos: sobrecarga de serviço, atos dessarazoáveis.</li>
+    </ul>  
 </ul>
+
+<h2><font color="#ff6b6b">The Second Way: princípios do feedback</font></h2>
+<p></p>
+
 </body>
 </html>
